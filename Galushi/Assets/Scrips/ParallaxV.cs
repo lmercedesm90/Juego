@@ -6,6 +6,7 @@ public class ParallaxV : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
+    [Range(1, 15)]
     private float speed = 1f;
 
     [SerializeField]

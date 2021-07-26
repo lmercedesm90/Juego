@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         float movimientoV = Input.GetAxisRaw("Vertical");
 
         //Genero el vector de movimiento asociado, teniendo en cuenta la velocidad
-        Vector2 movimiento = new Vector2(movimientoH * speed, movimientoV * potencia);
+        Vector2 movimiento = new Vector2(0f, movimientoV * potencia);
 
         //Aplico ese movimiento al RigidBody del jugador
         rb.velocity = movimiento;

@@ -47,3 +47,6 @@ TagManager:
   - name: Esenario
     uniqueID: 3634143843
     locked: 0
+  - name: Interfaz
+    uniqueID: 1977893351
+    locked: 0

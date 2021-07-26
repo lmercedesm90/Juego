@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Globo2D : MonoBehaviour
 {
-    private float speed = 20;
+    [SerializeField]
+    [Range(1, 15)]
+    private float speed = 1;
     private Rigidbody2D rb;
     private Vector2 starPosition;
     // Start is called before the first frame update
