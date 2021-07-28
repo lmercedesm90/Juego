@@ -8,6 +8,7 @@ public class Disparo : MonoBehaviour
     [SerializeField]
     [Range(1, 30)]
     private float speed = 1;
+    public GameObject objetivo;
 
     void Start()
     {
@@ -18,5 +19,10 @@ public class Disparo : MonoBehaviour
     void Update()
     {
         transform.position += transform.right * speed * -1 * Time.deltaTime;
+    }
+
+    void OnCollisionEnter2D(Collision2D hit)
+    {
+        Destroy(gameObject);
     }
 }
