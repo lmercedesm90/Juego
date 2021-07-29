@@ -15,6 +15,8 @@ public class Globo2D : MonoBehaviour
     public Sprite spritechange;
     private SpriteRenderer sprite;
 
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,6 +40,7 @@ public class Globo2D : MonoBehaviour
             audioSource.Play();
             sprite.sprite = spritechange;
             transform.position = new Vector2(0, 6);
+            GloboGoal();
             Destroy(gameObject, 1);
         }
         else
@@ -46,5 +49,8 @@ public class Globo2D : MonoBehaviour
             Destroy(gameObject);   
         }
     }
-
+    public void GloboGoal()
+    {
+        Puntaje.puntaje += 1;
+    }
 }

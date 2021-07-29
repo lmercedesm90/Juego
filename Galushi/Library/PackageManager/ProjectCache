@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637612167265372335
-    m_Hash: 2204306383
+      ticks: 637631061312784700
+    m_Hash: 686281437
   m_LockFileStatus:
     m_FilePath: F:/Documents/Repos/Juego/Galushi/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637612167527878807
-    m_Hash: 3394294237
+      ticks: 637631061312784700
+    m_Hash: 3979380318
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

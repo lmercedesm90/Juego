@@ -24,7 +24,6 @@ public class Clonarglobos : MonoBehaviour
         timer += 1;
         if (timer >= segundos * 60)
         {
-            Debug.Log("cree un globo");
             Instantiate(Globo, lanzador.position, Quaternion.identity);
             timer = 0;
         }

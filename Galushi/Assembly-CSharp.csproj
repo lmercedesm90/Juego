@@ -58,12 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scrips\ParallaxV.cs" />
     <Compile Include="Assets\Scrips\PlayerController.cs" />
+    <Compile Include="Assets\Scrips\MainMenu.cs" />
     <Compile Include="Assets\Scrips\Clonarglobos.cs" />
     <Compile Include="Assets\Scrips\Parallax.cs" />
     <Compile Include="Assets\Scrips\Disparar.cs" />
     <Compile Include="Assets\Scrips\Disparo.cs" />
     <Compile Include="Assets\Scrips\Globo2D.cs" />
-    <Compile Include="Assets\Scrips\MainMenu.cs" />
+    <Compile Include="Assets\Scrips\Puntaje.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

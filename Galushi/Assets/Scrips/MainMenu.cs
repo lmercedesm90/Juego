@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour
     {
         HideMenu();
         scenes.Add(SceneManager.LoadSceneAsync("Game"));
+        
     }
 
     public void HideMenu()
@@ -22,5 +23,10 @@ public class MainMenu : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void LoadScreen()
+    {
+
     }
 }
