@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4854910783110310213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6306, y: -4.0906, z: 0}
-  m_LocalScale: {x: 0.5057983, y: 0.5057983, z: 0.5057983}
+  m_LocalPosition: {x: -2.9178, y: -3.8034, z: 0}
+  m_LocalScale: {x: 0.88868755, y: 0.88868755, z: 0.88868755}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -167,8 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  spritechange: {fileID: 21300000, guid: 87764e160b1655e48b665c2a004f0fc6, type: 3}
-  scoreT: {fileID: 7348255177251512187, guid: 9614eaaee0f65504b927cd6990f75885, type: 3}
+  spritechange: {fileID: 21300000, guid: ee62749a06e42a54b803f4b7d7e43a44, type: 3}
 --- !u!82 &4854910783110310212
 AudioSource:
   m_ObjectHideFlags: 0

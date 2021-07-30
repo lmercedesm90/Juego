@@ -36,21 +36,15 @@ public class Globo2D : MonoBehaviour
     {
         if (hit.transform.gameObject.name == "Lazer(Clone)")
         {
-            Debug.Log("exploto");
             audioSource.Play();
             sprite.sprite = spritechange;
+            Puntaje.Combo(true);
             transform.position = new Vector2(0, 6);
-            GloboGoal();
             Destroy(gameObject, 1);
         }
         else
         {
-            Debug.Log("exploto bordes");
             Destroy(gameObject);   
         }
-    }
-    public void GloboGoal()
-    {
-        Puntaje.puntaje += 1;
     }
 }

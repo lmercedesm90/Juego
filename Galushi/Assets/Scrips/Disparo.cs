@@ -23,6 +23,13 @@ public class Disparo : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D hit)
     {
+        if (hit.gameObject.name == "Caja")
+        {
+            Debug.Log("Choque con la pared");
+            Destroy(gameObject);
+            Puntaje.Combo(false);
+        }
         Destroy(gameObject);
+
     }
 }
